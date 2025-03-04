@@ -1,12 +1,12 @@
-import React, { useEffect } from 'react'
+import React from 'react'
+import { Hero } from '../components'
 
 const Landing = () => {
-  useEffect(() => {
-    console.log("Landing page is rendering!");
-  }, []);
-
+ 
   return (
-    <h1 className="text-4xl">Landing</h1>
+    <>
+    <Hero/>
+    </>
     
   )
   
