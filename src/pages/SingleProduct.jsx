@@ -39,7 +39,7 @@ const SingleProduct = () => {
         <img
           src={image}
           alt={title}
-          className="w-96 object-cover rounded-lg lg:w-full"
+          className="w-96 h-96 object-cover rounded-lg lg:w-full"
         />
         {/* PRODUCT */}
         <div>
@@ -71,7 +71,7 @@ const SingleProduct = () => {
             </div>
           </div>
           {/* AMOUNT */}
-          <div className="form-control w-full max-w-wxs">
+          <div className="form-control w-full max-w-xs">
             <label className="label" htmlFor="amount">
               <h4 className="text-md font-medium tracking-wider capitalize">
                 amount
