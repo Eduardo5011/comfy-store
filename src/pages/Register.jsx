@@ -1,5 +1,5 @@
 import React from "react";
-import { Form, Link } from "react-router-dom";
+import { Form, Link, redirect } from "react-router-dom";
 import { FormInput, SubmitBtn } from "../components";
 import { customFetch } from "../utils";
 import { toast } from "react-toastify";
@@ -33,21 +33,21 @@ const Register = () => {
           type="text"
           label="username"
           name="username"
-          defaultValue="Little Bear "
+          
         />
         <FormInput
           type="email"
           label="email"
           name="email"
-          defaultValue="LBear@gmail.com"
+          defaultValue="solid@gmail.com"
         />
         <FormInput
           type="password"
           label="password"
           name="password"
-          defaultValue="123456"
+          
         />
-        <div className="nt-4">
+        <div className="mt-4">
           <SubmitBtn text="register" />
         </div>
         <p className="text-center">

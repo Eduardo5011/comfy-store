@@ -2,6 +2,13 @@ import React from "react";
 import { FormInput, SubmitBtn } from "../components";
 import { Form, Link } from "react-router-dom";
 
+export const action = (store) => async () => {
+  console.log(store);
+  
+  return null;
+ 
+};
+
 const Login = () => {
   return (
     <section className="h-screen grid place-items-center">
